@@ -1,0 +1,7 @@
+{
+  "VAULT_OAUTH_CLIENT_ID": "0oa1wkr7379zto5Hc0h8",
+  "VAULT_OAUTH_IDP_URL": "https://veevasys.okta.com/oauth2/v1",
+  "VAULT_OIDC_PROFILE_ID": "_c5894ea8-95e3-45bb-8847-7b1cb965399b",
+  "VAULT_OAUTH_REDIRECT_URI": "http://localhost:8080/login/callback",
+  "VAULT_API_CLIENT_ID": "VeevaVaultApi"
+}
