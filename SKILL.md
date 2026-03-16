@@ -42,7 +42,7 @@ Once the MDL is retrieved, the agent must parse it to answer the user's specific
     - **Lifecycles**: Look for `states`, `user_actions`, and `entry_criteria`. Note that these attributes are typically nested within individual `state` blocks.
     - **Workflows**: Look for `steps`, `variables`, and `tasks`.
     - **Picklists**: Look for `picklist_values`.
-- **Constraint**: If the MDL references another component (e.g., a shared field or a specific lifecycle), the agent SHOULD proactively ask or attempt to extract that secondary component's MDL if necessary for a complete answer.
+- **Constraint**: If the MDL references another component (e.g., a shared field or a specific lifecycle), extract that secondary component's MDL if necessary for a complete answer.
 
 ### 4. Jargon-Free Explanation
 Translate the technical MDL syntax into plain English.
